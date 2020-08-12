@@ -1,0 +1,69 @@
+.with_prengi {
+    min-height: 896px;
+    padding: 79px 0 81px;
+    &__questions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__question {
+        height: 255px;
+        width: 360px;
+        background: url(../img/questions/question.jpg) center (center/cover) no-repeat;
+        padding: 32px 0 39px;
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__text {
+            width: 234px;
+            margin: 0 auto;
+            margin-top: 31px;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.44;
+        }
+    }
+    &__arrows {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    &__heading {
+        text-align: center;
+        margin-top: 33px;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: bold;
+        color: #393939;
+        text-transform: uppercase;
+    }
+    &__answers {
+        margin-top: 37px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__answer {
+        height: 255px;
+        width: 360px;
+        background: url(../../img/ticks/tick.jpg) center (center/cover) no-repeat;
+        padding: 32px 0 39px;
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__text {
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 31px;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.44;
+        }
+    }
+}

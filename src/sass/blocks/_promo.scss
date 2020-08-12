@@ -1,0 +1,64 @@
+.promo {
+    min-height: 700px;
+    background: url(../img/main_screen/bg.jpg) center (center/cover) no-repeat;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        img {
+            margin-top: 39px;
+            cursor: pointer;
+        }
+    }
+    &__links {
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+        width: 540px;
+    }
+    &__link {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 13px;
+        &:hover {
+            text-decoration: none;
+            color: #00c2f0;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        font-family: Roboto;
+        margin-top: 133px;
+        font-size: 42px;
+        font-weight: 900;
+        color: #ffffff;
+        line-height: 1.14;
+    }
+    &__subtitle {
+        margin-top: 27px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 1.25;
+    }
+    .button_main {
+        margin-top: 39px;
+        cursor: pointer;
+        &:hover {
+            color: #00c2f0;
+            background-color: #ffffff;
+            border: none;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    }
+    &__main {
+        position: relative;
+    }
+    .mobile {
+        position: absolute;
+        right: 0;
+        top: -38%;
+    }
+}

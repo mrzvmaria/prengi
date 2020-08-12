@@ -1,0 +1,60 @@
+.deployment {
+    position: relative;
+    .white_heading {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        top: 79px;
+    }
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__item_1 {
+        height: 580px;
+        width: 50%;
+        background: url(../img/deployment/cloud.jpg) center (center/cover) no-repeat;
+    }
+    &__item_2 {
+        height: 580px;
+        width: 50%;
+        background: url(../img/deployment/server.jpg) center (center/cover) no-repeat;
+    }
+    &__cloud {
+        text-align: right;
+        padding-right: 82px;
+        right: 0;         
+        width: auto;     
+        &__subheading {
+            margin-left: auto;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 300;
+            color: #ffffff;
+            width: 525px;
+        }
+    }
+    &__server {
+        text-align: left;
+        padding-left: 82px;
+        width: auto; 
+        &__subheading {
+            margin-right: auto;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 300;
+            color: #ffffff;
+            width: 525px;
+        }
+    }
+    &__heading {
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 900;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-top: 255px;
+        margin-bottom: 20px;
+    }
+}

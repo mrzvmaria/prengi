@@ -1,0 +1,38 @@
+.flags {
+    .container {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .country {
+        max-width: 228px;
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 28px;
+            height: 21px;
+            margin-right: 12px;
+        }
+        &__info {
+            font-family: Roboto;
+            font-size: 11px;
+            font-weight: 300;
+        }
+        &__name {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1;
+        }
+        &__tel {
+            margin-top: 3px;
+        }
+        &__mail {
+            margin-top: 3px;
+        }
+        &__adr {
+            margin-top: 3px;
+        }
+    }
+}

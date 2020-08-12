@@ -1,0 +1,22 @@
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+@import 'media';
+
+.container {
+    max-width: 1142px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/with_prengi';
+@import 'blocks/decisions';
+@import 'blocks/advantages';
+@import 'blocks/deployment';
+@import 'blocks/do';
+@import 'blocks/footer';
+
+@import 'base/button';
+@import 'base/headings';

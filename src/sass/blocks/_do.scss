@@ -11,5 +11,12 @@
     .button_main {
         margin: 0 auto;
         margin-top: 30px;  
+        &:hover {
+            color: #00c2f0;
+            background-color: #ffffff;
+            border: 0.5px solid #00c2f0;
+            transition: 0.4s;
+            cursor: pointer;
+        }
     }
 }

@@ -1,34 +1,33 @@
 .deployment {
     position: relative;
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     .white_heading {
         position: absolute;
         transform: translateX(-50%);
         left: 50%;
         top: 79px;
     }
-    &__items {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
     &__item_1 {
-        height: 580px;
         width: 50%;
         background: url(../img/deployment/cloud.jpg) center (center/cover) no-repeat;
+        position: relative;
     }
     &__item_2 {
-        height: 580px;
         width: 50%;
         background: url(../img/deployment/server.jpg) center (center/cover) no-repeat;
+        position: relative;
     }
     &__cloud {
         text-align: right;
         padding-right: 82px;
-        right: 0;         
-        width: auto;     
+        right: 0;  
+        position: absolute;
+        z-index: 2;           
         &__subheading {
             margin-left: auto;
-            font-family: Roboto;
             font-size: 18px;
             font-weight: 300;
             color: #ffffff;
@@ -38,10 +37,10 @@
     &__server {
         text-align: left;
         padding-left: 82px;
-        width: auto; 
+        position: absolute;
+        z-index: 2;
         &__subheading {
             margin-right: auto;
-            font-family: Roboto;
             font-size: 18px;
             font-weight: 300;
             color: #ffffff;
@@ -49,12 +48,33 @@
         }
     }
     &__heading {
-        font-family: Roboto;
         font-size: 30px;
-        font-weight: 900;
+        font-weight: 700;
         color: #ffffff;
         text-transform: uppercase;
         margin-top: 255px;
         margin-bottom: 20px;
+    }
+    &__square_right {
+        width: 167px;
+        height: 167px;
+        opacity: 0.3;
+        background-color: #00c2f0;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 232px;
+        margin-right: 43px;
+    }
+    &__square_left {
+        width: 167px;
+        height: 167px;
+        opacity: 0.3;
+        background-color: #00c2f0;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 232px;
+        margin-left: 43px;
     }
 }
